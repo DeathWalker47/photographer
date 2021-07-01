@@ -1,0 +1,27 @@
+
+body{
+  color: $default;
+  @extend %roboto-300;
+  font-size: 19px;
+  line-height: 25px;
+  position: relative;
+}
+
+.container{
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: 0.095em;
+  color: $title;
+  @extend %poiretone-400;
+}
+
+/* .bg{
+  background-color: $bg;
+
+} */
