@@ -7,6 +7,9 @@ body{
   position: relative;
 }
 
+.wrapper{
+  overflow: hidden;
+}
 .container{
   max-width: 1230px;
   padding: 0 15px;
