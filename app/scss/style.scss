@@ -338,12 +338,15 @@
 
 .reviews{
   background-color: $bg;
-  min-height: 350px;
+  height: 350px;
+  /* height: 100%; */
   .slider{
     max-width: 1150px;
     margin: 0 auto;
-    margin: -82px auto 0;
+    margin: /* -82px  */ 0 auto 0;
+    transform: translateY(-103px);
     padding-bottom: 74px;
+    z-index: 1;
   }
   .slick-slide{
     padding: 0 50px 74px;
@@ -528,7 +531,7 @@
       }
       .price__item-title{
         margin-bottom: 28px;
-        transform: translateX(93px);
+        transform: translateX(110px);
       }
     }
     &:nth-child(3){
@@ -648,7 +651,7 @@
     padding-left: 276px;
   }
   &__title{
-    width: 640px;
+    max-width: 640px;
     padding-top: 45px;
   }
   &__social{
