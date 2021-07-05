@@ -11,4 +11,15 @@ $(function(){
     $('.about__portfolio-images').toggleClass('about__portfolio-images--active');
   });
 
+  $('.menu a').on('click', function() {
+    let href = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(href).offset().top
+    }, {
+        duration: 1200,  
+        easing: "linear" 
+    });
+    return false;
+  });
+    
 });

@@ -6,7 +6,6 @@
 
 .header{
   background-image: url('../images/bg-top.jpg');
-  /* background-position: bottom center; */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -62,15 +61,6 @@
     letter-spacing: 0.095em;
     margin-bottom: 29px;
     position: relative;
-    /* &::after{
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 632px;
-      height: 1px;
-      background-color: $line;
-    } */
   }
   &__title-span{
     display: block;
@@ -162,10 +152,9 @@
 
 .header-wrapper{
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   z-index: 2;
-  padding: 90px 0 60px;
-  /* overflow: hidden; */
+  padding: 60px 0 85px;
   
 }
 
@@ -212,7 +201,6 @@
   }
   &__wrapper{
     background-image: url('../images/about.jpg');
-    background-position:  top center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
