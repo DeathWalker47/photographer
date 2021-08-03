@@ -192,7 +192,18 @@
             </li>
           </ul>
           <div class="price__link-box">
-            <a class="price__link" href="#">Заказать съемку</a>
+            <div class="popup-overlay"></div>
+            <a class="price__link" href="#modal-popup">Заказать съемку</a>
+            <div class="modal-popup">
+              <button class="modal-popup__close">&times;</button>
+              <h2 class="modal-popup__title title">Оставить заявку</h2>
+              <form action="" class="modal-popup__form">
+                <input type="text" class="modal-popup__input" placeholder="Your name" required>
+                <input type="email" class="modal-popup__input" placeholder="Your E-mail" required>
+                <input type="tel" class="modal-popup__input" placeholder="Your number" required>
+                <button type="submit" class="modal-popup__btn">Отправить</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>

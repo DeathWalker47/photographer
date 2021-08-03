@@ -21,5 +21,15 @@ $(function(){
     });
     return false;
   });
-    
+
+  $('.price__link').on('click', function(){
+    $('.popup-overlay').fadeIn();
+    $('.modal-popup').fadeIn();
+  });
+
+  $('.modal-popup__close, .popup-overlay').on('click', function(){
+    $('.popup-overlay').fadeOut();
+    $('.modal-popup').fadeOut();
+  });
+  
 });
